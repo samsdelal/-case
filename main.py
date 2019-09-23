@@ -1,15 +1,10 @@
-#case 1
-import turtle
-#whats my little bitch
-# case 1
+#case
 # Вместо того , чтобы каждый раз прописывать turtle пишете t (вызвали как t)
 import turtle as t
 t.setup(800, 800)
 # whats my little bitch
-
-# x - corner coordinate x
-# y - corner coordinate y
-# a - side of the triangle
+import turtle as t
+t.setup(800, 800)
 def triangle90(x, y, a, color):
     t.up()
     t.color(color)
@@ -52,6 +47,7 @@ def square(x, y, a,color):
     t.forward(a)
     t.right(90)
     t.end_fill()
+
 def paralellogramm(x, y, a, color):
     t.up()
     t.setposition(x, y)
@@ -59,28 +55,150 @@ def paralellogramm(x, y, a, color):
     t.down()
     t.begin_fill()
     t.forward(a)
-    t.left(125)
+    t.left(135)
     t.forward(1.5*a)
-    t.left(55)
+    t.left(45)
     t.forward (a)
-    t.left(125)
+    t.left(135)
     t.forward(1.5*a)
-    t.left(55)
+    t.left(45)
     t.forward(a)
     t.end_fill()
-# Вертим всем функцией - t.seth() устанавливаем значение 1 - 360
-def sayoga_zayac():
-    triangle90(-320, 320, 40, "red")
+
+#Boris Kuznecov
+def boris_kuznecov():
+    #Непонятный человечек
+
+    t.seth(90)
+    triangle90(300, 30, 70, "yellow")
+    t.seth(0)
+    triangle90(227, 100, 70, "red")
+    t.seth(45)
+    square(277, 125, 30, "orange")
+    t.seth(90)
+    paralellogramm(297, -3, 30, "green")
     t.seth(180)
-    triangle90(-320, 270, 40, "red")
+    triangle90(340, -13, 40, "blue")
+    t.seth(265)
+    triangle90(277, -21, 30, "pink")
+    t.seth(0)
+    triangle90(330, -17, 30, "purple")
+
+
+    #Бегущий человек
+    t.seth(45)
+    square(-100, 125, 30, "orange")
+    t.seth(90)
+    triangle90(-90, 30, 70,"red")
+    t.seth(90)
+    paralellogramm(-93, 70, 30, "green")
     t.seth(270)
-    triangle90(-320, 220, 40, "red")
-    paralellogramm(0,0,50,"blue")
-    t.seth(180)
-    ravb(100,100,50,"yellow")
+    triangle90(-70, 44, 70, "yellow")
+    t.seth(90)
+    triangle90(-160, -40, 30, "pink")
+    t.seth(-45)
+    triangle90(-67, -10, 40, "blue")
+    t.seth(-225)
+    triangle90(-70, -100, 30, "purple")
 
-    t.exitonclick()
-    t.mainloop()
+
+# Вертим всем функцией - t.seth() устанавливаем значение 1 - 360
+#Artem
+def main():
+    t.seth(0)
+    paralellogramm(-340, -302, 30, "green")
+    t.seth(225)
+    triangle90(-275, -270, 45, "blue")
+    t.seth(45)
+    triangle90(-318, -268, 30, "pink")
+    t.seth(45)
+    square(-295, -246, 31, "orange")
+    t.seth(315)
+    triangle90(-322, -176, 65, "red")
+    t.seth(270)
+    triangle90(-325, -190, 65, "yellow")
+    triangle90(-292, -175, 30, "purple")
+
+    t.seth(45)
+    square(-150, -250, 30, "orange")
+    t.seth(225)
+    triangle90(-78, -265, 30, "pink")
+    t.seth(45)
+    triangle90(-95, -286, 30, "purple")
+    t.seth(135)
+    triangle90(-35, -300, 50, "yellow")
+    t.seth(315)
+    triangle90(-32, -228, 50, "red")
+    t.seth(45)
+    triangle90(-105, -225, 50, "blue")
+    t.seth(225)
+    paralellogramm(-10, -204, 30, "green")
+
+    t.seth(315)
+    triangle90(198, -302, 30, "purple")
+    t.seth(45)
+    square(200, -300, 30, "orange")
+    t.seth(135)
+    triangle90(269, -322, 65, "red")
+    t.seth(-45)
+    paralellogramm(272, -325, 30, "green")
+    t.seth(315)
+    triangle90(221, -181, 65, "yellow")
+    t.seth(360)
+    triangle90(225, -177, 45, "blue")
+    t.seth(45)
+    triangle90(225, -175, 30, "purple")
+
+# Sergey
+def sayoga_zayac():
+        t.seth(90)
+        triangle90(-350, 220, 50, "yellow")
+        t.seth(270)
+        triangle90(-319, 248, 30, "blue")
+        triangle90(-296, 218, 20, "purple")
+        t.seth(270)
+        triangle90(-300, 324, 50, "red")
+        t.seth(0)
+        square(-297, 341, 30, "orange")
+        paralellogramm(-310, 345, 25, "green")
+        t.seth(90)
+        ravb(-297, 300, 25, "pink")
+        t.seth(0)
+        triangle90(-50, 380, 70, "red")
+        t.seth(270)
+        triangle90(20, 307, 70, "yellow")
+        t.seth(90)
+        triangle90(24, 258, 50, "blue")
+        t.seth(180)
+        triangle90(74, 308, 50, "blue")
+        t.seth(45)
+        square(-42, 310, 40, "orange")
+        t.seth(0)
+        paralellogramm(-81, 310, 35, "green")
+        t.seth(90)
+        triangle90(-81, 272, 35, "pink")
+        t.seth(270)
+        triangle90(-83, 307, 35, "purple")
+        t.seth(90)
+        triangle90(290, 230, 70, "yellow")
+        t.seth(270)
+        triangle90(343, 277, 25, "purple")
+        t.seth(0)
+        triangle90(318, 252, 25, "purple")
+        t.seth(0)
+        triangle90(218, 340, 70, "red")
+        t.seth(180)
+        triangle90(288, 342, 35, "blue")
+        t.seth(270)
+        triangle90(253, 377, 35, "blue")
+        square(360, 304, 30, "orange")
+        t.seth(270)
+        triangle90(360, 354, 20, "pink")
+        triangle90(380, 334, 20, "pink")
+        t.exitonclick()
+        t.mainloop()
 
 
+main()
 sayoga_zayac()
+boris_kuznecov()
