@@ -1,4 +1,7 @@
-#case
+## Case-study #1
+# Developers:   Kuznecov B. (33,3%),
+#               Makarov A. (33,3%),
+#               Odoevcev S. (33,3%)
 # Вместо того , чтобы каждый раз прописывать turtle пишете t (вызвали как t)
 import turtle as t
 t.setup(800, 800)
