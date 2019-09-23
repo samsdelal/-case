@@ -5,7 +5,7 @@
 # Вместо того , чтобы каждый раз прописывать turtle пишете t (вызвали как t)
 import turtle as t
 t.setup(800, 800)
-# whats my little bitch
+#Здравствуйте Андрей Геннадьевич 
 import turtle as t
 t.setup(800, 800)
 def triangle90(x, y, a, color):
