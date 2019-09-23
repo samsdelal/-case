@@ -79,8 +79,8 @@ def boris_kuznecov():
     paralellogramm(297, -3, 30, "green")
     t.seth(180)
     triangle90(340, -13, 40, "blue")
-    t.seth(265)
-    triangle90(277, -21, 30, "pink")
+    t.seth(270)
+    triangle90(280, -23, 30, "pink")
     t.seth(0)
     triangle90(330, -17, 30, "purple")
 
@@ -89,7 +89,7 @@ def boris_kuznecov():
     t.seth(45)
     square(-100, 125, 30, "orange")
     t.seth(90)
-    triangle90(-90, 30, 70,"red")
+    triangle90(-90, 30, 70 ,"red")
     t.seth(90)
     paralellogramm(-93, 70, 30, "green")
     t.seth(270)
@@ -100,6 +100,7 @@ def boris_kuznecov():
     triangle90(-67, -10, 40, "blue")
     t.seth(-225)
     triangle90(-70, -100, 30, "purple")
+
 
 
 # Вертим всем функцией - t.seth() устанавливаем значение 1 - 360
@@ -198,7 +199,6 @@ def sayoga_zayac():
         t.exitonclick()
         t.mainloop()
 
-
+boris_kuznecov()
 main()
 sayoga_zayac()
-boris_kuznecov()
